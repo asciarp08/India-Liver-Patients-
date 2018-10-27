@@ -1,0 +1,105 @@
+<div fxLayoutAlign="center center" fxLayout="column">
+    <h1>U GIVE V TELL</h1>
+
+    
+
+    <div class="home__training">
+        <h3>Train Classification Model (Support Vector Machine)</h3>
+        <md-card fxLayoutAlign="center center" fxLayout="column">
+            <h4>Set Parameter for Model Training</h4>
+            <md-input-container>
+                <input
+                    mdInput
+                    name="C Parameter"
+                    placeholder="C Parameter"
+                    [(ngModel)]="svcParameters.C">
+            </md-input-container>
+            <button md-raised-button (click)="trainModel()">
+                Train model
+            </button>
+        </md-card>
+
+        <div *ngIf="svcResult"
+             fxLayoutAlign="center center"
+             fxLayout="column">
+            <h4>Training Accuracy</h4>
+            <ngx-charts-linear-gauge
+                [view]="[300, 100]"
+                [value]="svcResult.accuracy"
+                [scheme]="colorScheme"
+                [min]="0"
+                [max]="100"
+                [units]="'% accuracy'">
+            </ngx-charts-linear-gauge>
+        </div>
+    </div>
+
+    <div class="home__prediction"
+         fxLayoutAlign="center center"
+         fxLayout="column">
+        <h3>Predict Liver Disease</h3>
+
+        <md-card fxLayoutAlign="center center" fxLayout="column">
+            <h4>Define parameters</h4>
+            <div fxLayout="row">
+                <md-input-container>
+                    <input mdInput
+                           name="Age"
+                           placeholder="Age"
+                           [(ngModel)]="liver_df.age">
+                </md-input-container>
+                <md-input-container>
+                    <input mdInput
+                           name="Direct_Bilirubin"
+                           placeholder="Direct_Bilirubin"
+                           [(ngModel)]="liver_df.Direct_Bilirubin">
+                </md-input-container>
+            </div>
+            <div fxLayout="row">
+                <md-input-container>
+                    <input mdInput
+                           name="Alkaline_Phosphotase"
+                           placeholder="Alkaline_Phosphotase"
+                           [(ngModel)]="liver_df.Alkaline_Phosphotase">
+                </md-input-container>
+                <md-input-container>
+                    <input mdInput
+                           name="Alamine_Aminotransferase"
+                           placeholder="Alamine_Aminotransferase"
+                           [(ngModel)]="liver_df.Alamine_Aminotransferase">
+                </md-input-container>
+            </div>
+             </div>
+            <div fxLayout="row">
+                <md-input-container>
+                    <input mdInput
+                           name="Total_Protiens"
+                           placeholder="Total_Protiens"
+                           [(ngModel)]="liver_df.Total_Protiens">
+                </md-input-container>
+                <md-input-container>
+                    <input mdInput
+                           name="Albumin_and_Globulin_Ratio"
+                           placeholder="Albumin_and_Globulin_Ratio"
+                           [(ngModel)]="liver_df.Albumin_and_Globulin_Ratio">
+                </md-input-container>
+            </div>
+            <div>
+                <button md-raised-button (click)="predictIris()">Predict Disease</button>
+            </div>
+        </md-card>
+
+        <div *ngIf="probabilityPredictions"
+             fxLayoutAlign="center center"
+             fxLayout="column"
+             class="home__chart-container">
+            <h4>Prediction Result</h4>
+            <ngx-charts-pie-chart
+                [results]="probabilityPredictions"
+                [scheme]="colorScheme"
+                [labels]="true"
+                [legend]="true">
+            </ngx-charts-pie-chart>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,204 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-right\tproperty"
+			],
+			[
+				"margi",
+				"margin-left\tproperty"
+			],
+			[
+				"paddi",
+				"padding-bottom\tproperty"
+			],
+			[
+				"padd",
+				"padding-left\tproperty"
+			],
+			[
+				"padding",
+				"padding-right\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/mihit/flask-angular-data-science-master/frontend/src/app/pages/home/home.component.html",
+		"/home/mihit/.cache/.fr-cCXsJb/flask-angular-data-science-master/frontend/src/styles.scss",
+		"/home/mihit/.cache/.fr-UoNYta/flask-angular-data-science-master/frontend/src/app/pages/home/home.component.scss",
+		"/home/mihit/Desktop/portfolio/dist/contact.html",
+		"/home/mihit/Desktop/portfolio/dist/index.html",
+		"/home/mihit/flask-angular-data-science/frontend/src/app/pages/home/home.component.html",
+		"/home/mihit/Desktop/home1.html",
+		"/home/mihit/Documents/hi.js",
+		"/home/mihit/Documents/acm1.cpp",
+		"/home/mihit/Downloads/andmand.cpp",
+		"/home/mihit/Documents/init.py",
+		"/home/mihit/Documents/hi.html",
+		"/home/mihit/Documents/test.py",
+		"/home/mihit/Documents/test.html",
+		"/home/mihit/Documents/Algorithms/week2_algorithmic_warmup/6_last_digit_of_the_sum_of_fibonacci_numbers/fibonacci_sum_last_digit.cpp",
+		"/home/mihit/Documents/Algorithms/week2_algorithmic_warmup/5_fibonacci_number_again/fibonacci_huge.cpp",
+		"/home/mihit/Documents/Algorithms/week2_algorithmic_warmup/4_least_common_multiple/lcm.cpp",
+		"/home/mihit/Documents/Algorithms/week2_algorithmic_warmup/1_fibonacci_number/fibonacci.cpp",
+		"/home/mihit/Documents/Algorithms/week2_algorithmic_warmup/3_greatest_common_divisor/gcd.cpp",
+		"/home/mihit/Documents/Algorithms/week2_algorithmic_warmup/2_last_digit_of_fibonacci_number/fibonacci_last_digit.cpp"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "app.component.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
